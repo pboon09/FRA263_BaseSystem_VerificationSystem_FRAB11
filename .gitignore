@@ -1,0 +1,35 @@
+# ── Workspace .gitignore — FRA263 Base System + Verification System ──────────
+# Covers junk/artefacts across all three sub-projects.
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+*~
+
+# ── Python  (BaseSystem_Frab11) ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+modbus_env/
+
+# PyInstaller / packaging output (regenerable — source .spec files are kept)
+dist/
+temp/
+
+# ── ROS 2 / colcon  (claude-visualizer-ws) ───────────────────────────────────
+build/
+install/
+log/
+
+# ── Large prebuilt release binaries (FRA263-264_BaseSystem) ──────────────────
+# Uncomment to stop tracking the shipped artefacts (25 MB .tar + 11 MB .exe):
+# *.tar
+# *.exe
