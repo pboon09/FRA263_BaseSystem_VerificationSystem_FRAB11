@@ -29,6 +29,12 @@ docker load -i frontend-image_v1_2.tar     # first time only
 docker compose up -d
 ```
 
+**To close UI**
+```bash
+cd ~/FRA263_BaseSystem_VerificationSystem_FRAB11/FRA263-264_BaseSystem
+docker compose down      # stops + removes the UI container
+```
+
 **Terminal 2 — backend**
 ```bash
 cd ~/FRA263_BaseSystem_VerificationSystem_FRAB11/BaseSystem_Frab11
